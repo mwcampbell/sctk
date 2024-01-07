@@ -36,7 +36,7 @@ xkbcommon = { version = "0.7.0", optional = true, features = ["wayland"] }
 xkeysym = "0.2.0"
 
 calloop = { version = "0.12.1", optional = true }
-calloop-wayland-source = { version = "0.2.0", optional = true }
+calloop-wayland-source = { git = "https://github.com/mwcampbell/calloop-wayland-source", branch = "accessibility-protocol", optional = true }
 
 [features]
 default = ["calloop", "xkbcommon"]
